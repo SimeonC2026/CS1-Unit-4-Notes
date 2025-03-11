@@ -50,3 +50,32 @@ score = score * (-3);
 console.log(score);
 score = score / 5;
 console.log(score);
+
+// Can combine multiiple operators in one statement
+// Order of evaluation follows PEMDAS!
+score = score / 6 - 3 ** (2 + 4) * 10;
+console.log(score);
+
+// STRING CONCATENATION (merging/combining)
+//QUOTES indicate STRING LITERALS
+let greeting = "Hello " + "Friend, I am so happy you're here!";
+console.log(greeting)
+
+//Can combine string VARIABLES with string LITERALS
+let username = "SimeonChew713";
+greeting = "Welcome " + username + "!!!";
+console.log(greeting);
+console.log(username);
+
+// Watch out for STRING CONVERSIONS
+console.log( 4 + 5 ); // 9 (adds the numbers)
+console.log ( "4" + 5 ); // 45 (concatenate, not add)
+console.log(4 + '5'); // 45 (same as above!)
+
+// SHORTCUT OPERATORS (Increment/Decrement)
+let counter = 0;
+counter = counter + 1; // LONG WAY
+counter++; // SHORTCUT to increase by 1
+console.log(counter);
+counter--; // SHORTCUT to decrease by 1
+console.log(counter);
