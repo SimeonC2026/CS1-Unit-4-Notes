@@ -113,3 +113,25 @@ let sohaila = makeSandwich("turkey","ketchup","pita");
 console.log(sohaila);
 let simeon = makeSandwich("jelly","butter","multigrain");
 console.log(simeon);
+// *** Selection (CONDITIONALS) ***
+// A conditional expression is like a QUESTION
+// that has a boolean (true/false) ANSWER
+
+console.log("Conditionals:");
+console.log( 4 > 5 ); // 4 > 5 evaluates to FALSE
+console.log("Is 10 less than 2?");
+console.log( 10 < 2);
+console.log( 2 == 2);
+console.log( 2 == 4);
+console.log( 3 != 2);
+console.log (3 != 3);
+
+// Strings can also be compared by dictionary order
+// Each letter/character has a numerical value (A is 1, B is 2...)
+console.log( "Kyanni" >= "Ayesha" ); // true
+console.log( "Z" < "A" ); // false
+console.log( "Katerina" == "Katherine");
+
+// Can use comparison operators btwn VARIABLES and VALUES
+let myNickname = "Sim";
+console.log(myNickname == "Sim");
