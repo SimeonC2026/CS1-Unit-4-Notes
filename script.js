@@ -135,3 +135,28 @@ console.log( "Katerina" == "Katherine");
 // Can use comparison operators btwn VARIABLES and VALUES
 let myNickname = "Sim";
 console.log(myNickname == "Sim");
+// Use CONDITIONS in IF STATEMENTS to make
+// DECISIONS about which code to execute
+
+let age = 17;
+// "is the VALUE of the age VARIABLE equal to 16?"
+if (age == 16) {
+    // code below only runs if the condition above is TRUE
+console.log("Happy Sweet Sixteen!");
+}
+else {
+    // code below runs when the IF block is FALSE
+    console.log("Happy birthday!")
+}
+
+// Use ELSE IF blocks to test multiple options
+age = 10; // change value of age variable
+if (age == 18) {
+console.log("Congrats on becoming an adult!");
+}
+else if (age >= 18) {
+console.log("Go vote!!!");
+}
+else {
+    console.log("Too young to vote...")
+}
